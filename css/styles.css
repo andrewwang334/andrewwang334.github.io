@@ -1,0 +1,122 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+
+
+
+#home {
+  background-color: var(--silver);
+}
+
+.bg-gray{
+  background-color: var(--silver);
+}
+
+.circular {
+  object-fit: cover;
+  height:350px;
+  width:350px;
+  border-radius: 50%;
+  display: block;
+  margin:0 auto;
+}
+
+.project-img {
+  object-fit: cover;
+  height:150px;
+  width:350px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 5%;
+}
+
+.about-pic {
+  border-radius:10%;
+  height:450px;
+  width:300px;
+}
+
+.title {
+  margin:0 auto;
+  /* margin-left: 25%; */
+  /* margin-top: 20px; */
+  width: 500px;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 35px;
+
+}
+
+.projects {
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+  font-family: 'Inconsolata', monospace;
+  font-size: 50px;
+  padding-bottom: 50px;
+
+}
+
+.about {
+  position: relative;
+  margin: auto;
+  width: 50%;
+  padding: 100px;
+
+}
+
+.carouseltxt {
+  margin-left: 140px;
+  margin-bottom: 0px;
+  width: 100%;
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+
+}
+
+.center {
+  position: relative;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+
+}
+
+.row {
+  position: relative;
+  margin-left:-15px;
+  margin-right:-15px;
+
+}
+
+.projectdesc {
+  font-family: 'Inconsolata', monospace;
+}
+
+.left-item {
+    text-align: left;
+    margin-left: 450px;
+}
+
+.button {
+  width = 20px;
+  height = 20px;
+}
+
+.about-content {
+  padding-top: 50px;
+}
