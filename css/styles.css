@@ -6,13 +6,13 @@
 
 
 
-
-#home {
-  background-color: var(--silver);
+#wrap {
+  width: 100%;
+  margin: 0 auto;
 }
 
-.bg-gray{
-  background-color: var(--silver);
+.bg-whitesmoke{
+  background-color: #F5F5F5;
 }
 
 .circular {
@@ -21,7 +21,8 @@
   width:350px;
   border-radius: 50%;
   display: block;
-  margin:0 auto;
+  margin-left: -50px;
+  margin-right: auto;
 }
 
 .project-img {
@@ -42,12 +43,12 @@
 }
 
 .title {
-  margin:0 auto;
-  /* margin-left: 25%; */
-  /* margin-top: 20px; */
+  text-align: center;
+  margin-left: -50%;
+  margin-top: 20px;
   width: 500px;
   font-family: 'Architects Daughter', cursive;
-  font-size: 35px;
+  font-size: 50px;
 
 }
 
@@ -70,11 +71,12 @@
 }
 
 .carouseltxt {
-  margin-left: 140px;
-  margin-bottom: 0px;
-  width: 100%;
+  padding-top: 100px;
+  margin-left: -50%;
+  width: 200%;
   font-family: 'Inconsolata', monospace;
-  font-size: 20px;
+  font-size: 22px;
+  position: relative
 
 }
 
@@ -87,12 +89,14 @@
 
 .container {
   position: relative;
-  width: 100vw;
+  width: 90%;
   height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 0;
+  align-items: center;
+  flex-direction: column;
 
 }
 
@@ -119,4 +123,5 @@
 
 .about-content {
   padding-top: 50px;
+  padding-bottom: -50px;
 }
